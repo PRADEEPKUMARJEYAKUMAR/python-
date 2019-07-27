@@ -1,5 +1,5 @@
 p=int(input())
-a=1
+a=0
 while(a<p):
     if(p<2**a):
         b=2**a
