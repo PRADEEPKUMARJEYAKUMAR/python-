@@ -1,0 +1,12 @@
+pb=int(input())
+a=0
+while(a<pb):
+    if(pb<2**a):
+        b=2**a
+        print(b)
+        break
+    elif(pb<2):
+        print("2")
+        break
+    else:
+        a+=1
