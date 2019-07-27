@@ -5,4 +5,8 @@ while(a<p):
         b=2**a
         print(b)
         break
-    a+=1
+    elif(p<2):
+        print("2")
+        break
+    else:
+        a+=1
