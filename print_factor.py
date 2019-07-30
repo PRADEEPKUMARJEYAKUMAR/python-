@@ -1,4 +1,4 @@
-a=int(input())
+pb=int(input())
 for i in range(1,a+1):
-    if(a%i==0):
+    if(pb%i==0):
         print(i,end=" ")
