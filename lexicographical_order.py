@@ -1,3 +1,3 @@
-p=input()
-b=sorted(p)
+pb=input()
+b=sorted(pb)
 print(''.join(b))
