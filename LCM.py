@@ -1,10 +1,10 @@
-p,b=map(int,input().split())
-if(p>b):
-    big=p
+pq,b=map(int,input().split())
+if(pq>b):
+    big=pq
 else:
     big=b
 while(True):
-    if(big%p==0 and big%b==0):
+    if(big%pq==0 and big%b==0):
         lcm=big
         break
     big+=1
