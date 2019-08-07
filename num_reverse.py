@@ -1,3 +1,3 @@
-p=input()
-bp=p[::-1]
+pk=input()
+bp=pk[::-1]
 print(bp)
