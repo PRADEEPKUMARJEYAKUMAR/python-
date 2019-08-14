@@ -1,4 +1,4 @@
-p=list(map(str,input().split(",")))
+p=list(map(str,input().split()))
 for i in p:
         l=i[0]
         j=i[1::]
